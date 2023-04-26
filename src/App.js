@@ -7,6 +7,15 @@ import { Home, FullPost, Registration, AddPost, Login } from "./pages";
 function App() {
   return (
     <>
+      <span
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          fontSize: "1.5rem",
+        }}
+      >
+        MOCK-DATA here. Development ongoing
+      </span>
       <Header />
       <Container maxWidth="lg">
         <Routes>
